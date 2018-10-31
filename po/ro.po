@@ -1,7 +1,7 @@
 # Romanian translations for Hello package.
 # Copyright (C) 2018 THE Hello'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the Hello package.
-# U-EAMOBILE\mgatejescu <gus666xe@gmail.com>, 2018.
+# Mihai Gătejescu <gus666xe@gmail.com>, 2018.
 #
 msgid ""
 msgstr ""
