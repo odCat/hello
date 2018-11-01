@@ -1,4 +1,4 @@
-# Romanian translations for Hello package.
+# German translations for Hello package.
 # Copyright (C) 2018 THE Hello'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the Hello package.
 # casual <gus666xe@gmail.com>, 2018.
@@ -8,17 +8,16 @@ msgstr ""
 "Project-Id-Version: Hello 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-01 12:55+0200\n"
-"PO-Revision-Date: 2018-11-01 13:11+0200\n"
+"PO-Revision-Date: 2018-11-01 13:09+0200\n"
 "Last-Translator: Mihai Gătejescu <gus666xe@gmail.com>\n"
-"Language-Team: Romanian\n"
-"Language: ro\n"
+"Language-Team: German\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: hello.c:9
 #, c-format
 msgid "Hello, World!\n"
-msgstr ""
+msgstr "Hallo, Welt!\n"

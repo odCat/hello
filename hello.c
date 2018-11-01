@@ -3,7 +3,7 @@
 int main (void)
 {
     setlocale (LC_ALL, "");
-    bindtextdomain ("hello", getenv("PWD"));
+    bindtextdomain ("hello", "/usr/local/share/locale/");
     textdomain ("hello");
 
     printf (_("Hello, World!\n"));
