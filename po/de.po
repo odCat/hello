@@ -1,14 +1,13 @@
 # German translations for Hello package.
-# Copyright (C) 2018 THE Hello'S COPYRIGHT HOLDER
+# Copyright (C) 2018 Mihai Gătejescu
 # This file is distributed under the same license as the Hello package.
-# casual <gus666xe@gmail.com>, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Hello 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-01 12:55+0200\n"
-"PO-Revision-Date: 2018-11-01 13:09+0200\n"
+"PO-Revision-Date: 2018-11-01 13:29+0200\n"
 "Last-Translator: Mihai Gătejescu <gus666xe@gmail.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
