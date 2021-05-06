@@ -1,6 +1,9 @@
 a.exe
-hello.exe
 a.out
+hello
+hello.exe
 *.mo
 *~
 .*.swp
+*.o
+.idea
