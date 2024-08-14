@@ -1,6 +1,10 @@
 
-hello: hello.c hello.h
-	gcc -o hello hello.c
+hello: hello.o
+	cc -o hello hello.o
+
+hello.o: hello.c hello.h
+	cc -c hello.c
+
 
 po/hello.pot: hello.c
 	xgettext --keyword=_ --output=po/hello.pot hello.c
