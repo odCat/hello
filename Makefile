@@ -10,5 +10,6 @@ po/hello.pot : hello.c
 
 po/ro.po : po/hello.pot
 
+.PHONY : clean
 clean :
-	rm a.exe a.out hello *.o po/*.mo
+	-rm a.exe a.out hello $(OBJ) po/*.mo
