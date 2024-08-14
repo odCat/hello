@@ -1,14 +1,14 @@
 # Romanian translations for Hello package.
-# Copyright (C) 2018 Mihai Gătejescu
+# Copyright (C) 2018, 2024 Mihai Gătejescu
 # This file is distributed under the same license as the Hello package.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Hello 1.0\n"
+"Project-Id-Version: Hello 1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-01 12:55+0200\n"
 "PO-Revision-Date: 2018-11-01 13:29+0200\n"
-"Last-Translator: Mihai Gătejescu <gus666xe@gmail.com>\n"
+"Last-Translator: Mihai Gătejescu <mgatejescu@pm.me>\n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
