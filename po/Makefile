@@ -14,15 +14,15 @@ ro.mo: ro.po
 	msgfmt -o $@ ro.po
 
 de.po: hello.pot
-	msgmerge $@ hello.pot -o $@
+	msgmerge -U $@ hello.pot
 	#msginit --locale=de -i hello.pot -o $@
 
 fr.po: hello.pot
-	msgmerge $@ hello.pot -o $@
+	msgmerge -U $@ hello.pot
 	#msginit --locale=fr -i hello.pot -o $@
 
 ro.po: hello.pot
-	msgmerge $@ hello.pot -o $@
+	msgmerge -U $@ hello.pot
 	#msginit --locale=ro_RO -i hello.pot -o $@
 
 hello.pot: ../src/hello.c
