@@ -7,3 +7,4 @@ hello.exe
 .*.swp
 *.o
 .idea
+hello.pot
