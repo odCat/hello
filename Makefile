@@ -8,4 +8,4 @@ po/hello.pot: hello.c
 po/ro.po: po/hello.pot
 
 clean:
-	rm a.exe a.out hello po/*.mo
+	rm a.exe a.out hello *.o po/*.mo
