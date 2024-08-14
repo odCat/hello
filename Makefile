@@ -1,15 +1,10 @@
 OBJ = hello.o
 
-hello : hello.o
-	cc -o hello $(OBJ)
-
-hello.o : hello.h
-
-po/hello.pot : hello.c
-	xgettext --keyword=_ --output=po/hello.pot hello.c
-
-po/ro.po : po/hello.pot
+all:
+	$(MAKE) -C src
+	$(MAKE) -C po
 
 .PHONY : clean
 clean :
-	-rm a.exe a.out hello $(OBJ) po/*.mo
+	$(MAKE) -C src clean
+	$(MAKE) -C po clean
