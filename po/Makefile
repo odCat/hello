@@ -1,8 +1,8 @@
-POs = de.po fr.po ro.po
-MOs  = de.mo fr.mo ro.mo
+PO = de.po fr.po ro.po
+MO  = de.mo fr.mo ro.mo
 
 .PHONY: all
-all: de.mo fr.mo ro.mo
+all: $(MO)
 
 de.mo: de.po
 	msgfmt -o $@ de.po
@@ -25,9 +25,9 @@ ro.po: hello.pot
 	#msgmerge ro.po hello.pot
 	msginit --locale=ro_RO -i hello.pot -o $@
 
-hello.pot: ../hello.c
-	xgettext --keyword=_ --output=hello.pot ../hello.c
+hello.pot: ../src/hello.c
+	xgettext --keyword=_ --output=hello.pot ../src/hello.c
 
 .PHONY: clean
 clean:
-	@rm -f *.mo
+	@rm -f $(MO)
