@@ -4,3 +4,4 @@ List of TODOs:
 * Can all po/mo files be handled in a single rule?
 * make in the root directory should trigger po Makefile
 * Update the gettext.h file to the latest version
+* Do we need the gettext header in the repo?
