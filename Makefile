@@ -8,3 +8,7 @@ all:
 clean :
 	$(MAKE) -C src clean
 	$(MAKE) -C po clean
+
+.PHONY : install
+install :
+	cp ./hello /usr/local/bin/hello
