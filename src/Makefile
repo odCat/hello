@@ -1,10 +1,12 @@
+override CFLAGS += -Wall -Wextra -Wno-unused-variable -pedantic
 OBJ = hello.o
 
 hello : hello.o
-	cc -o ../hello $(OBJ)
+	$(CC) -o ../hello $(OBJ) $(CFLAGS)
 
-hello.o : hello.h
+hello.o : hello.c hello.h
 
-.PHONY : clean
 clean :
 	-rm a.exe a.out hello ../hello $(OBJ)
+
+.PHONY : clean
