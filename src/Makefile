@@ -7,4 +7,4 @@ hello.o : hello.h
 
 .PHONY : clean
 clean :
-	rm a.exe a.out hello ../hello $(OBJ)
+	-rm a.exe a.out hello ../hello $(OBJ)

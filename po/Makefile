@@ -30,4 +30,4 @@ hello.pot: ../src/hello.c
 
 .PHONY: clean
 clean:
-	rm -f $(MO)
+	-rm -f $(MO)

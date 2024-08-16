@@ -15,4 +15,4 @@ install :
 
 .PHONY : uninstall
 uninstall :
-	rm -f /usr/local/bin/hello
+	-rm -f /usr/local/bin/hello
