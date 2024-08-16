@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Hello 1.1\n"
+"Project-Id-Version: Hello 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-01 12:55+0200\n"
-"PO-Revision-Date: 2018-11-01 13:29+0200\n"
+"POT-Creation-Date: 2024-08-16 22:18+0300\n"
+"PO-Revision-Date: 2024-08-16 20:42+0300\n"
 "Last-Translator: Mihai Gătejescu <mgatejescu@pm.me>\n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
 
-#: hello.c:9
+#: ../src/hello.c:9
 #, c-format
-msgid "Hello, World!\n"
+msgid "Hello, world!\n"
 msgstr "Bună, Lume!\n"

@@ -4,9 +4,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Hello 1.1\n"
+"Project-Id-Version: Hello 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-14 20:10+0300\n"
+"POT-Creation-Date: 2024-08-16 22:18+0300\n"
 "PO-Revision-Date: 2024-08-14 20:56+0300\n"
 "Last-Translator: Mihai Gătejescu <mgatejescu@pm.me>\n"
 "Language-Team: French\n"
